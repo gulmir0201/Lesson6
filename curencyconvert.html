@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="curencyconvert.css">
+</head>
+<body>
+    
+    <div class="converter-box">
+        <h2>Currency Key</h2>
+        <label for="value-to-convert">Value to Convert:</label>
+        <input type="number" id="value-to-convert" value="100">
+        
+        <label for="from-currency">From:</label>
+        <select id="from-currency">
+            <option value="USD">USD - US Dollar</option>
+            <option value="RUB">RUB - Pound Sterling</option>
+            <option value="EUR">EUR - Euro</option>
+            <option value="GBP">GBP - Pound Sterling</option>
+            <!-- Add more options as needed -->
+        </select>
+        
+        <label for="to-currency">To:</label>
+        <select id="to-currency">
+            <option value="KGS">KGS - Pound Sterling</option>
+            <option value="GBP">GBP - Pound Sterling</option>
+            <option value="USD">USD - US Dollar</option>
+            <option value="EUR">EUR - Euro</option>
+            <!-- Add more options as needed -->
+        </select>
+
+        <div class="buttons">
+            <button id="clear">Clear</button>
+            <button id="calculate">Calculate</button>
+        </div>
+
+        <div class="result">
+            <p id="conversion-result">Answer:</p>
+            <p id="conversion-rate"></p>
+        </div>
+    </div>
+   
+    
+
+
+
+
+    <script src="curencyconvert.js"></script>
+
+
+</body>
+</html>
